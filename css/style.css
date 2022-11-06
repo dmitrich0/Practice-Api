@@ -1,0 +1,62 @@
+body {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: initial;
+}
+
+a:visited {
+    color: initial;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.list-title {
+    text-align: center;
+}
+
+.list-item {
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.list-item:hover {
+    transform: translateX(5px);
+}
+
+.list-item:hover a {
+    color: green;
+}
+
+.comments li {
+    margin-top: 5px;
+}
+
+.pagination {
+    margin: 0 auto;
+    width: 100px;
+    font-size: 20px;
+}
+
+.pag-left, .pag-right {
+  border: 0;
+  background: transparent;
+  font-size: 30px;
+}
+
+button:hover {
+    color: green;
+}
+
+.pag-left:hover {
+    transform: translateX(-5px);
+}
+
+.pag-right:hover {
+    transform: translateX(5px);
+}
